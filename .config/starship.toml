@@ -1,0 +1,30 @@
+format = """
+$directory\
+$git_branch\
+\n\
+$character"""
+
+add_newline = true
+
+[directory]
+disabled = false
+truncate_to_repo = true
+truncation_length = 8
+truncation_symbol = " "
+read_only = " 󰌾"
+style = "#FF3131"
+format = "[$path ]($style)"
+
+[directory.substitutions]
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = " "
+style = " #FFC300 "
+format = "[$symbol$branch]($style)"
+
+[character]
+success_symbol = "[❯](#0FFF50)"
+error_symbol = "[󰈸](#FF5F1F)"
