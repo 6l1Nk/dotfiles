@@ -111,8 +111,10 @@ fi
 export DENO_INSTALL="/home/nestor/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-# Cargo (Rust package manager) binaries
-export PATH="$PATH:/root/.cargo/bin"
+export PATH="$PATH:/home/nestor/.cargo/bin"
 
 # Starship terminal prompt styler
 eval "$(starship init bash)"
+
+# this is your terminal on lsd
+source ~/.config/lsd/lscolors.sh
