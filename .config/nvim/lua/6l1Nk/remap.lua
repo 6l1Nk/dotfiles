@@ -4,6 +4,11 @@ vim.g.mapleader = " "
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 vim.keymap.set("n", "<C-s>", ":w<CR>")
 
+-- select all w/ ctrl+a
+vim.keymap.set("i", "<C-a>", "<Esc>gg0vG$")
+vim.keymap.set("n", "<C-a>", "gg0vG$")
+
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
