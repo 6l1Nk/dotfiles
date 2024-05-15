@@ -954,7 +954,7 @@ vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 -- this disables Q, which I believe is "repeat last macro"
 vim.keymap.set("n", "Q", "<nop>")
 
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+-- vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- this has to do with quickfix, i am not familiar with that...
 -- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
