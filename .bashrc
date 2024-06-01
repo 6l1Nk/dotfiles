@@ -112,6 +112,7 @@ export DENO_INSTALL="/home/nestor/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 export PATH="$PATH:/home/nestor/.cargo/bin"
+export PATH="$PATH:/home/nestor/.local/bin"
 
 # Starship terminal prompt styler
 eval "$(starship init bash)"
