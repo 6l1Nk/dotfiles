@@ -119,3 +119,6 @@ eval "$(starship init bash)"
 
 # this is your terminal on lsd
 source ~/.config/lsd/lscolors.sh
+
+# Go
+export PATH="$PATH:$(go env GOROOT):/home/nestor/go/bin"
